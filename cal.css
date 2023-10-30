@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 10px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 50px;
+    height:100vh;
+    
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+.txt{
+   font-size: 18px;
+   padding: 2px;
+}
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.age {
+    color: white;
+    font-size: 24px;
+}
